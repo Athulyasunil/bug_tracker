@@ -8,7 +8,7 @@ namespace bug_tracker.server.Controllers
     {
         private static readonly string[] Summaries =
         [
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         ];
 
         [HttpGet(Name = "GetWeatherForecast")]
